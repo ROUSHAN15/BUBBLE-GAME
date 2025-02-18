@@ -1,4 +1,4 @@
-let timer=6;
+let timer=60;
 var scoreTotal=0;
 var hitrn;
 // bubbling
@@ -46,7 +46,7 @@ function time(){
         document.querySelector("#time").textContent=timer
     }
     else 
-    {   document.querySelector("#pbtm").innerHTML='<div style=" font-size: 50px;color: rgb(43, 105, 43); ">TIME OUT</div> <h5 style=" font-size: 10px; color:rgb(44, 120, 44);">this game made by roushan verma</h5>'
+    {   document.querySelector("#pbtm").innerHTML='<div style=" font-size: 50px;color: rgb(43, 105, 43); ">TIME OUT</div>'
         clearInterval(timeval);
     }
 },1000)
